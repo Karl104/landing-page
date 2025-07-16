@@ -55,12 +55,33 @@ h1 {
 .content {
   display: flex;
   flex-direction: row;
+  margin: 50px;
 }
 
-.content-left,
 .content-right {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  width: 50%;
+}
+
+.content-left {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  justify-content: center;
+  align-items: center;
+}
+
+img {
+  margin-bottom: 50px;
+}
+
+.readMore {
+  background-color: black;
+  color: white;
+  width: 180px;
+  height: 35px;
+  border: 1px black;
 }
