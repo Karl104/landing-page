@@ -41,3 +41,26 @@ ul {
   justify-content: center;
   align-items: center;
 }
+
+h1 {
+  font-size: 48px;
+  font-weight: bold;
+}
+
+.content-paragraph {
+  font-size: 18px;
+  margin: 10px;
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+}
+
+.content-left,
+.content-right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
